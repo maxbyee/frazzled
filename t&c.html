@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Frazzled</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/general-sans" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="./favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
+
+</head>
+
+<body>
+  <div class="flex overflow-hidden flex-col pt-9 bg-orange-50">
+    <div
+      class="flex flex-wrap gap-5 justify-between self-center w-full text-base tracking-wide text-center text-black max-md:max-w-full max-w-full px-14 max-md:px-4">
+      <img loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/1efb2fe7e781ff98fcba494d68362ad5491f3b31b47dffe41e47d085c171f50a?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+        class="object-contain shrink-0 max-w-full aspect-[2.22] w-[215px]" />
+      <!-- Burger Menu -->
+      <div class="xl:hidden relative">
+        <button class="p-2" id="dropdown-button">
+          <svg class="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+        <div id="dropdown-menu"
+          class="z-20 hidden origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+          role="menu" aria-orientation="vertical" aria-labelledby="dropdown-button">
+          <div class="py-1" role="none">
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem">ABOUT
+              FRAZZLED</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">Sessions</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">Contact US</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem">need
+              help right now</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">volunteer with us</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">PARTNER with us</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">support us</a>
+          </div>
+        </div>
+      </div>
+      <!-- Navigation -->
+      <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full max-xl:hidden">
+        <div class="flex flex-auto gap-4 items-start">
+          <div
+            class="uppercase grow anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            ABOUT FRAZZLED</div>
+          <div
+            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            Sessions</div>
+          <div
+            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            Contact US</div>
+          <div
+            class="self-stretch p-3 uppercase bg-orange-600 rounded-xl anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            need help now?
+          </div>
+          <div
+            class="uppercase basis-auto anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            volunteer WITH US</div>
+        </div>
+        <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full">
+          <div
+            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
+            PARTNER with us</div>
+          <div
+            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
+            SUPPORT US</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col">
+
+      <div
+        class="anton self-center mt-20 mb-12 text-7xl leading-none text-center text-black max-md:mt-10 max-md:max-w-full">
+        Terms and conditions
+      </div>
+
+      <div class="px-4 md:px-11 pt-0 w-full text-2xl font-medium leading-7 text-black max-md:max-w-full">
+        By registering to attend a Frazzled Cafe you are hereby also agreeing to the
+        following Terms & Conditions:
+        <br />
+        <br />
+        1. You agree to adhere to the the 
+        <a href="https://www.frazzledcafe.org/guidelines" class="underline" target="_blank">
+          Frazzled Cafe Guidelines
+        </a>
+        .
+        <br />
+        <br />
+        2. You commit to showing respect and courtesy at all times to other Attendees.
+        <br />
+        <br />
+        3. You certify that you and anyone you may bring with you are 18 years of age
+        or older
+        <br />
+        <br />
+        4. You may not disclose (save with the prior consent of the Attendee(s)
+        concerned), any names or personal details of Frazzled Cafe Attendees, or the
+        specifics of any Conversations that take place during a Frazzled Cafe session.
+        <br />
+        <br />
+        5. You accept that Frazzled Cafe, its Organisers or its affiliates are not
+        responsible for any distress or discomfort any Conversations you take part in
+        or overhear during Frazzled Cafe Events may cause you.
+        <br />
+        <br />
+        6. Frazzled Cafes are run on a not-for-profit basis and you therefore agree
+        that you will not be remunerated for any organisational or other
+        responsibilities you may partake in unless otherwise agreed in writing with
+        Frazzled Cafe management.
+        <br />
+        <br />
+        7. You will not make any postings which are unrelated to the Frazzled Cafe to
+        the Frazzled Cafe Website or social media accounts, or use Frazzled Cafe
+        Events to distribute any material (oral or in writing) that would constitute
+        an advertisement, chain letter, pyramid scheme or any other form of
+        solicitation.
+        <br />
+        <br />
+        8. Neither the Frazzled Cafe nor its Affiliates are responsible for the
+        content, accuracy or validity of the views and opinions which are shared by
+        Attendees of Frazzled Cafe Events. [These reflect solely the views of the
+        individual from whom they are expressed.]
+        <br />
+        <br />
+        9. You agree that you will not, nor will you cause others to:
+        <br />
+        <ul>
+          <li>
+            Create websites, message groups, blogs or social media accounts with
+            Frazzled Cafe in the title or representing the Frazzled Cafe brand. [It is
+            fine to include a link to the official Frazzled Cafe website and/or social
+            media on your personal blog, Facebook or Twitter]
+          </li>
+          <li>
+            Use the name ‘Frazzled Cafe’ for events that are not organised by Frazzled
+            Cafe or it’s affiliates without express written consent
+          </li>
+          <li>Speak to the Media as a representative of Frazzled Cafe.</li>
+          <li>
+            Produce materials or merchandise using the name “Frazzled Cafe” or
+            purporting to represent Frazzled Cafe without express written consent.
+          </li>
+        </ul>
+        <br />
+        10. Frazzled Cafe accepts no responsibility for content or conversations that
+        happen outside of Frazzled Cafe meetings or between attendees (including, but
+        limited to, email conversations, social media chat forums, or WhatsApp
+        groups).
+        <br />
+        <br />
+        11. You agree that you will not carry out or encourage conduct that (i)
+        constitutes a criminal offence under any criminal statute in the UK or in any
+        other jurisdiction (ii) gives rise to civil liability of any kind, (iii) is
+        otherwise contrary to the law of any jurisdiction or (iv) infringes the rights
+        of third parties.
+        <br />
+        <br />
+        13. You agree that you will not use a Frazzled Cafe Event  to intentionally
+        make comments that are or are likely to be, discriminatory, hateful, false,
+        inaccurate, threatening, defamatory, abusive, obscene, indecent, seditious,
+        offensive, pornographic, harassing, profane, sexually oriented, invasive of a
+        person’s privacy, liable to incite racial hatred, menacing, scandalous,
+        inflammatory, blasphemous, in breach of confidence, or which otherwise
+        constitute a breach of any relevant law.
+        <br />
+        <br />
+        14. We reserve the right to refuse entry to any Frazzled Cafe Event, and to
+        ask anyone at any time and for any reason to not attend or return to our
+        meetings or services either for a set time or in perpetuity. 
+        <br />
+        13. You agree to indemnify the Frazzled Cafe and its Affiliates for any Loss
+        it suffers [and hold Frazzled Cafe harmless] from any breach of these terms
+        and conditions.
+      </div>
+
+      <!-- FOOTER -->
+      <div class="flex flex-col rounded-none xl:pt-0 mt-32">
+        <div
+          class="flex flex-col gap-20 items-start px-14 py-24 w-full bg-black max-md:px-5 max-md:max-w-full lg:flex-row">
+          <img loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/9c2fae638cb4a82125e96b0b9d5b271339599e9e55d548c29e8b4d3b6240c3c6?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+            class="object-contain shrink-0 mt-1.5 max-w-full aspect-[2.23] w-[154px]" />
+          <div class="flex flex-col">
+            <img loading="lazy" src="img/_REV1262_FRAZZLED_EMOJI_MASTER_WITH_TEXT_Battery.png"
+              class="mt-[-350px] lg:mt-[-188px] w-[204px] mb-[40px] ml-[-20px]  z-20 absolute" />
+            <div class="self-start text-2xl tracking-wider text-white uppercase anton">
+              SIGN UP TO OUR NEWSLETTER
+            </div>
+            <div
+              class="flex gap-5 justify-between items-center pl-4 pr-4 py-2.5 mt-9 text-lg bg-orange-50 rounded-2xl text-black text-opacity-50 flex-nowrap w-[320px]">
+              <input class="anton min-w-[250px]" placeholder="ENTER YOUR EMAIL ADDRESS HERE..." />
+              <img loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/470b23cbeed3486c4bb7f705292b8322b4f060ccc66e4a5486aa070f78418b07?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                class="object-contain shrink-0 aspect-[1.45] w-[26px]" />
+            </div>
+          </div>
+          <div class="flex flex-col items-start text-lg text-white whitespace-nowrap">
+            <div class="tracking-wider uppercase anton">Facebook</div>
+            <div class="mt-[19px] uppercase anton">X</div>
+            <div class="self-stretch mt-[19px] tracking-wider anton">INSTAGRAM</div>
+          </div>
+          <div class="grow shrink self-stretch w-100 text-xs text-white">
+            © 2023 Frazzled Cafe. All Rights Reserved. Frazzled Cafe is a registered
+            charity in England and Wales (#1173064) and Scotland (#SC048841).
+            <br />
+            <br />
+            <a href="https://www.frazzledcafe.org/?page_id=260" class="underline" target="_blank">
+              Guidelines
+            </a>
+              
+            <a href="https://www.frazzledcafe.org/?page_id=256" class="underline" target="_blank">
+              Terms and Conditions
+            </a>
+             
+            <a href="https://www.frazzledcafe.org/?page_id=264" class="underline" target="_blank">
+              Privacy Policy
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- FOOTER -->
+    </div>
+
+</body>
+<script src="js/index.js"></script>
+<script src="js/video.js"></script>
+<script src="js/dropdown.js"></script>
+
+</html>
